@@ -1,6 +1,6 @@
 import { Router } from './Routes/Router';
 
-export const App = () => {
+const App = () => {
   return (
     <>
       <p>this should always get rendered above the variable text</p>
@@ -8,3 +8,5 @@ export const App = () => {
     </>
   );
 };
+
+export default App;
